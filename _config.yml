@@ -1,0 +1,15 @@
+# Site settings
+title: Game Clone Project Blog
+description: Development blog for my game clone project
+baseurl: "/game_clone_blog" # the subpath of your site, e.g. /blog
+url: "" # will be set by GitHub Pages
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
