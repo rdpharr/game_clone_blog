@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building the Game They Actually Advertised"
+title: "Day 1 - 2 hours - Feasibility and Project Planning"
 date: 2024-12-06
 categories: [planning, learning]
 ---
