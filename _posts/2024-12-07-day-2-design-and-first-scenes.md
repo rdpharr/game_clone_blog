@@ -42,18 +42,18 @@ Both are CC0 licensed (public domain), which is perfect for a learning project. 
 
 Here are the main characters I'll be using:
 
-**Crystal Character (adds units/health to the player):**
-![Player Character](crystal_scene.png)
+**Crystal Collectible (adds units/health to the player):**
+![Crystal Collectible](/images/crystal_scene.png)
 
-This is the animated character from the Starter Kit. Simple, readable, and comes with built-in animations.
+This crystal from the Tower Defense Kit will serve as a collectible that adds units to the player.
 
 **Enemy (UFO):**
-![Enemy UFO](enemy.png)
+![Enemy UFO](/images/enemy.png)
 
 The UFO enemy from the Tower Defense Kit. Perfect for a sci-fi runner aesthetic, and there are multiple variants (a/b/c/d) for visual variety.
 
 **Player:**
-![Player Character](player.png)
+![Player Character](/images/player.png)
 
 The animated character from the Starter Kit. Simple, readable, and comes with built-in animations.
 
