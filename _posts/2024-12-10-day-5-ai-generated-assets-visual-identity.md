@@ -76,7 +76,7 @@ I started with the most important sprites - the player and enemy units - and bui
 
 ### Player Unit (32x32)
 
-![Player Unit](https://raw.githubusercontent.com/rdpharr/game_clone/main/assets/pixellab/player.png)
+![Player Unit](https://raw.githubusercontent.com/rdpharr/3d-runner-game/main/assets/pixellab/player.png)
 
 **Prompt:** *"Blue knight warrior character, pixel art, 32x32, game sprite, medieval fantasy, simple design, front-facing"*
 
@@ -84,7 +84,7 @@ The blue knight became the visual anchor for the entire game. Clean, readable, d
 
 ### Enemy Unit (32x32)
 
-![Enemy Unit](https://raw.githubusercontent.com/rdpharr/game_clone/main/assets/pixellab/enemy.png)
+![Enemy Unit](https://raw.githubusercontent.com/rdpharr/3d-runner-game/main/assets/pixellab/enemy.png)
 
 **Prompt:** *"Purple monster creature, pixel art, 32x32, game sprite, enemy character, menacing but simple, front-facing"*
 
@@ -92,7 +92,7 @@ Purple/magenta creates strong visual contrast with the blue player units. Immedi
 
 ### Barrel (64x64)
 
-![Barrel](https://raw.githubusercontent.com/rdpharr/game_clone/main/assets/pixellab/barrel.png)
+![Barrel](https://raw.githubusercontent.com/rdpharr/3d-runner-game/main/assets/pixellab/barrel.png)
 
 **Prompt:** *"Wooden barrel with metal bands, pixel art, 64x64, game collectible, medieval fantasy, detailed, top-down view"*
 
@@ -100,7 +100,7 @@ Classic fantasy barrel design. Large enough to display value labels clearly. Fit
 
 ### Gate (64x64)
 
-![Gate](https://raw.githubusercontent.com/rdpharr/game_clone/main/assets/pixellab/gate.png)
+![Gate](https://raw.githubusercontent.com/rdpharr/3d-runner-game/main/assets/pixellab/gate.png)
 
 **Prompt:** *"Wooden gate archway with stone pillars, pixel art, 64x64, medieval fantasy, game obstacle, top-down view"*
 
@@ -108,7 +108,7 @@ Three-tile gate structure that spans the playable area. Stone and wood materials
 
 ### Projectile (16x16)
 
-![Projectile](https://raw.githubusercontent.com/rdpharr/game_clone/main/assets/pixellab/projectile.png)
+![Projectile](https://raw.githubusercontent.com/rdpharr/3d-runner-game/main/assets/pixellab/projectile.png)
 
 **Prompt:** *"Orange energy orb, pixel art, 16x16, game projectile, glowing effect, simple bright magic spell"*
 
@@ -116,7 +116,7 @@ Bright orange/yellow for maximum visibility. Small but distinct. Pops against th
 
 ### Ground Tiles (128x128)
 
-![Ground](https://raw.githubusercontent.com/rdpharr/game_clone/main/assets/pixellab/ground.png)
+![Ground](https://raw.githubusercontent.com/rdpharr/3d-runner-game/main/assets/pixellab/ground.png)
 
 **Prompt:** *"Stone pathway cobblestones, pixel art, 128x128, tileable texture, medieval fantasy, top-down, warm earth tones"*
 
@@ -124,7 +124,7 @@ Seamlessly tiling stone pathway. Defines the playable area with warm browns that
 
 ### Grass (16x16)
 
-![Grass](https://raw.githubusercontent.com/rdpharr/game_clone/main/assets/pixellab/grass.png)
+![Grass](https://raw.githubusercontent.com/rdpharr/3d-runner-game/main/assets/pixellab/grass.png)
 
 **Prompt:** *"Green grass tuft, pixel art, 16x16, simple ground decoration, bright green, tileable"*
 
@@ -132,7 +132,7 @@ Small grass tufts for the border areas. Frames the playable path with natural gr
 
 ### Tree (16x16)
 
-![Tree](https://raw.githubusercontent.com/rdpharr/game_clone/main/assets/pixellab/tree.png)
+![Tree](https://raw.githubusercontent.com/rdpharr/3d-runner-game/main/assets/pixellab/tree.png)
 
 **Prompt:** *"Small tree or bush, pixel art, 16x16, simple stylized, medieval fantasy, green foliage, border decoration"*
 
