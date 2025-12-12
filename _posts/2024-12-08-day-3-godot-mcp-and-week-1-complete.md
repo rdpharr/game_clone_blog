@@ -27,7 +27,7 @@ After yesterday's somewhat clunky workflow of having Claude Code generate script
 **Installation was straightforward:**
 
 ```bash
-claude mcp add godot C:\Users\rdpha\OneDrive\Documents\Workspace\godot-mcp\build\index.js -e GODOT_PATH=C:\Users\rdpha\OneDrive\Documents\Workspace\Godot_v4.5.1\Godot_v4.5.1-stable_win64.exe
+claude mcp add godot C:\\Users\\rdpha\\OneDrive\\Documents\\Workspace\\godot-mcp\\build\\index.js -e GODOT_PATH=C:\\Users\\rdpha\\OneDrive\\Documents\\Workspace\\Godot_v4.5.1\\Godot_v4.5.1-stable_win64.exe
 ```
 
 This gives Claude Code a rich set of tools for interacting with Godot programmatically:
@@ -213,6 +213,23 @@ Before moving forward with shooting and other Week 2 features, I need to:
 - Gate charging system
 - Multiplier zones
 
+---
+
+## Play Current Build
+
+<div class="game-container" style="text-align: center; margin: 2em 0;">
+  <iframe src="/game_clone_blog/builds/day-3/" width="800" height="600" frameborder="0" allowfullscreen></iframe>
+  <p><em>Controls: Mouse to move horizontally</em></p>
+</div>
+
+> **Note**: First load may take a moment. The game runs in your browser using WebAssembly.
+> 
+> **What's playable**: Movement exists but spatial relationships are broken. This is a technical "complete" build that demonstrates why proper spatial planning is crucial.
+> 
+> **Known issues**: Camera angle incorrect, Z-direction confusing, objects don't appear where expected, unplayable due to spatial bugs. This build serves as a lesson in "done" vs "correct."
+
+---
+
 ## Lessons Learned
 
 **The Good:**
@@ -230,21 +247,6 @@ Before moving forward with shooting and other Week 2 features, I need to:
 - Physical unit representation is actually simpler conceptually
 - A "completed" Week 1 can still be completely unplayable
 - Sometimes you need to slow down to speed up
-
----
-
-## Play Current Build
-
-<div class="game-container" style="text-align: center; margin: 2em 0;">
-  <iframe src="/game_clone_blog/builds/day-3/" width="800" height="600" frameborder="0" allowfullscreen></iframe>
-  <p><em>Controls: Mouse to move horizontally</em></p>
-</div>
-
-> **Note**: First load may take a moment. The game runs in your browser using WebAssembly.
-> 
-> **What's playable**: Movement exists but spatial relationships are broken. This is a technical "complete" build that demonstrates why proper spatial planning is crucial.
-> 
-> **Known issues**: Camera angle incorrect, Z-direction confusing, objects don't appear where expected, unplayable due to spatial bugs. This build serves as a lesson in "done" vs "correct."
 
 ---
 
