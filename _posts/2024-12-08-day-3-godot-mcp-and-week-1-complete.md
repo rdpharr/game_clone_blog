@@ -20,6 +20,23 @@ Today brought rapid development but also revealed critical design issues that ne
 **Major Setback:**
 - Game is technically complete but not playable due to confusion about coordinate systems and camera angles
 
+---
+
+## Play Current Build
+
+<div class="game-container" style="text-align: center; margin: 2em 0;">
+  <iframe src="/game_clone_blog/builds/day-3/" width="800" height="600" frameborder="0" allowfullscreen></iframe>
+  <p><em>Controls: Mouse to move horizontally</em></p>
+</div>
+
+> **Note**: First load may take a moment. The game runs in your browser using WebAssembly.
+> 
+> **What's playable**: Movement exists but spatial relationships are broken. This is a technical "complete" build that demonstrates why proper spatial planning is crucial.
+> 
+> **Known issues**: Camera angle incorrect, Z-direction confusing, objects don't appear where expected, unplayable due to spatial bugs. This build serves as a lesson in "done" vs "correct."
+
+---
+
 ## Finding a Better Workflow: Godot MCP
 
 After yesterday's somewhat clunky workflow of having Claude Code generate scripts and then manually wiring them up in the Godot editor, I went searching for something better. I found the [godot-mcp](https://github.com/Coding-Solo/godot-mcp) project, which provides an MCP (Model Context Protocol) server specifically for Godot.
@@ -212,23 +229,6 @@ Before moving forward with shooting and other Week 2 features, I need to:
 - Barrel shoot-to-open mechanic
 - Gate charging system
 - Multiplier zones
-
----
-
-## Play Current Build
-
-<div class="game-container" style="text-align: center; margin: 2em 0;">
-  <iframe src="/game_clone_blog/builds/day-3/" width="800" height="600" frameborder="0" allowfullscreen></iframe>
-  <p><em>Controls: Mouse to move horizontally</em></p>
-</div>
-
-> **Note**: First load may take a moment. The game runs in your browser using WebAssembly.
-> 
-> **What's playable**: Movement exists but spatial relationships are broken. This is a technical "complete" build that demonstrates why proper spatial planning is crucial.
-> 
-> **Known issues**: Camera angle incorrect, Z-direction confusing, objects don't appear where expected, unplayable due to spatial bugs. This build serves as a lesson in "done" vs "correct."
-
----
 
 ## Lessons Learned
 
