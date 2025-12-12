@@ -5,7 +5,7 @@ title: Total Battle Clone - Dev Blog
 
 ## Welcome
 
-I'm building a 3D mobile runner game as a **personal learning project** - recreating Total Battle's mechanics without the dark patterns, microtransactions, or purchasing pressure. This blog documents the journey from planning to Android APK.
+I'm building a 2D mobile runner game as a **personal learning project** - recreating Total Battle's mechanics without the dark patterns, microtransactions, or purchasing pressure. This blog documents the journey from planning to Android APK.
 
 **Why?** To learn game development and play the game I want - pure gameplay without ads, timers, or manipulation.
 
@@ -18,7 +18,7 @@ You should be able to use the same method to create a game for yourself. Actuall
 3. Setup a Godot MCP from godot-mcp
 4. Tell your AI Coding agent (Cursor, Claude, whatever) to build the thing from the design doc
 
-Or just follow along while I try to make this owkr for me
+Or just follow along while I try to make this work for me
 
 ---
 
