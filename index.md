@@ -25,7 +25,7 @@ Or just follow along while I try to make this owkr for me
 ## Play Current Build
 
 <div class="game-container" style="text-align: center; margin: 2em 0;">
-  <iframe src="/game_clone_blog/builds/day-5/" width="800" height="600" frameborder="0" allowfullscreen></iframe>
+  <iframe src="/game_clone_blog/builds/day-6/" width="800" height="600" frameborder="0" allowfullscreen></iframe>
   <p><em>Controls: Mouse to move horizontally</em></p>
 </div>
 
