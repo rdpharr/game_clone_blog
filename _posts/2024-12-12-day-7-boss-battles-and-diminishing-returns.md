@@ -8,7 +8,7 @@ tags: [godot, boss-battle, ai-assisted-coding, claude-code, project-completion]
 
 ## Progress Summary
 
-The game now has a proper ending: a boss battle that spawns after 2 minutes of survival. But more interesting than the feature itself is what this session revealed about AI-assisted development at scale. I'm hitting diminishing returns with vibe coding - small changes now consume hundreds of thousands of tokens, and my Claude Pro limit resets have become hard blockers on development velocity.
+The game now has a proper ending: a boss battle that spawns after 2 minutes of survival. But more interesting than the feature itself is what this session revealed about AI-assisted development at scale. I'm hitting diminishing returns with vibe coding - small changes now consume my usage limits quickly, and Claude Pro limit resets have become hard blockers on development velocity.
 
 **Time Spent:** 3 hours  
 **Major Accomplishments:**
@@ -144,20 +144,17 @@ Here's the uncomfortable truth about this session: **I spent more time waiting f
 **Hour 1:**
 - Start implementing boss battle
 - Make 3-4 prompts to Claude Code
-- Token usage: ~80,000
 - Hit rate limit
-- Wait 3 hours for reset
+- Wait ~3 hours for reset
 
 **Hour 2 (after reset):**
 - Refine barrel mechanics
 - Test, iterate, debug
-- Token usage: ~60,000
 - Hit rate limit again
-- Wait 3 hours for reset
+- Wait ~3 hours for reset
 
 **Hour 3 (after second reset):**
 - Polish, documentation, final tweaks
-- Token usage: ~40,000
 - Barely made it under limit
 
 **Total actual coding time:** ~90 minutes of active work  
@@ -172,23 +169,16 @@ The project has grown complex enough that even small changes require Claude to:
 3. Generate code changes across several locations
 4. Update documentation to match
 
-Each "simple" request like "add a boss battle" actually involves:
-- Reading game_manager_2d.gd, enemy_group_2d.gd, player_manager_2d.gd
-- Understanding spawn systems, difficulty scaling, collision detection
-- Generating new boss spawn logic
-- Updating README.md, DESIGN.md
-- Testing edge cases
+Each "simple" request like "add a boss battle" actually involves loading significant context - the existing game manager, enemy systems, player management, spawn logic, and more. Then generating new code, explanations, and documentation updates.
 
-**Token breakdown for a typical request:**
-- Context loading: ~30,000 tokens (existing code)
-- Response generation: ~20,000 tokens (code + explanation)
-- Documentation updates: ~15,000 tokens
-- **Total per request:** ~65,000 tokens
+**What I observed:**
+- Hit Claude Pro rate limits after 3-4 prompts
+- Each limit required ~3 hours to reset
+- Total active coding: ~90 minutes
+- Total elapsed time: ~6 hours (including waits)
+- Effective productivity: 25% of clock time
 
-**Claude Pro limit:** ~200,000 tokens per 3-hour window  
-**Requests before limit:** ~3 prompts
-
-Three prompts is nothing when you're iterating on game feel. Yesterday I easily made 15-20 prompts tuning balance. Today? Three and done.
+I don't know the exact token economics, but the pattern is clear: complex projects with lots of interconnected files consume usage budget much faster than simple greenfield work.
 
 ### The Diminishing Returns Curve
 
